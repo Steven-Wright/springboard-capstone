@@ -18,7 +18,7 @@ optional arguments:
   --url URL
  ```
  
- You can download all records since a specified data to a json file. Warning, this shouldn't be used to download the entire dataset as it loads everything into memory before writing it out as a json string
+ You can download all records since a specified data to a json file. Warning, this shouldn't be used to download the entire dataset as it loads everything into memory before writing it out as a json string. Day should be a date in iso format (i.e. 2022-04-23).
  
  ```
  usage: get_data.py since [-h] [--file FILE] [--url URL] day
@@ -31,3 +31,4 @@ optional arguments:
   --file FILE, -f FILE
   --url URL
   ```
+  
